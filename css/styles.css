@@ -75,7 +75,7 @@ body {
 .logonavbar {
     position: absolute;
     left: 50%;
-    margin-left: -50px !important;
+    margin-left: -75px !important;
     /* 50% of your logo width */
     display: block;
 }
@@ -130,7 +130,7 @@ p {
 }
 
 .letritas strong {
-    color: #f8aa97;
+    color: #c54223;
 }
 
 .redi {
@@ -223,7 +223,7 @@ b {
 }
 
 .only-footer {
-    background: #f8aa97;
+    background: #f8f9fa;
     color: #666;
 }
 
@@ -241,7 +241,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #666;
     opacity: 1;
 }
 
