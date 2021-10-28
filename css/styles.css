@@ -64,8 +64,6 @@ body {
 
 .navbar {
     position: relative;
-    padding: 10px;
-    transition: top 0.3s;
 }
 
 .navcontainer {
@@ -126,7 +124,6 @@ p {
 .letritas h1 {
     font-weight: bold;
     color: #3b625f;
-    font-size: 2.5rem;
 }
 
 .letritas strong {
@@ -300,6 +297,18 @@ ul {
         max-width: 60%;
     }
     .img-sesiones {
-        max-width: 30%;
+        max-width: 60%;
+    }
+}
+
+@media (max-width:600px) {
+    .hero-message, .hero-description {
+        text-align: center;
+    }
+    .hero-image1 {
+        max-width: 60%;
+    }
+    .img-sesiones {
+        max-width: 35%;
     }
 }
