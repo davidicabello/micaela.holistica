@@ -404,27 +404,30 @@
         </div>
         <div class="footer-copyright centrado">© 2021 Copyright: davidicabello - Micaela Galvan</div>
     </section>
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "firebase/app";
-    import { getAnalytics } from "firebase/analytics";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
 
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-    apiKey: "AIzaSyCTk5ShKx6LzukjWK86WM3s94kRqXoyc-I",
-    authDomain: "micaelagalvan.firebaseapp.com",
-    projectId: "micaelagalvan",
-    storageBucket: "micaelagalvan.appspot.com",
-    messagingSenderId: "215113559165",
-    appId: "1:215113559165:web:2c28a51178758ef48c5514",
-    measurementId: "G-Z73EJDMF08"
-    };
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCTk5ShKx6LzukjWK86WM3s94kRqXoyc-I",
+            authDomain: "micaelagalvan.firebaseapp.com",
+            projectId: "micaelagalvan",
+            storageBucket: "micaelagalvan.appspot.com",
+            messagingSenderId: "215113559165",
+            appId: "1:215113559165:web:2c28a51178758ef48c5514",
+            measurementId: "G-Z73EJDMF08"
+        };
 
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
