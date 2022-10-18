@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -247,6 +248,10 @@ a:hover {
     color: #3b625f;
 }
 
+.fa-facebook-messenger, .fa-envelope, .fa-instagram, .fa-whatsapp {
+    font-size: 100px;
+}
+
 .only-footer p {
     color: #c54223;
     font-weight: bold;
@@ -294,9 +299,11 @@ ul {
     .hero-message, .hero-description {
         text-align: center;
     }
+
     .hero-image1 {
         max-width: 60%;
     }
+
     .img-sesiones {
         max-width: 60%;
     }
@@ -306,9 +313,11 @@ ul {
     .hero-message, .hero-description {
         text-align: center;
     }
+
     .hero-image1 {
         max-width: 60%;
     }
+
     .img-sesiones {
         max-width: 35%;
     }
