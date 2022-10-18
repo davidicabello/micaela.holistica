@@ -236,7 +236,6 @@ li {
     text-decoration: none;
     color: #f8aa97;
     opacity: 1;
-    font-size: 100px;
 }
 
 a {
@@ -249,8 +248,8 @@ a:hover {
     color: #3b625f;
 }
 
-.fa-facebook-messenger, .fa-envelope, .fa-instagram, .fa-whatsapp {
-    font-size: 100px;
+.fav-logo a:link {
+    font-size: 100px
 }
 
 .only-footer p {
